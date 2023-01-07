@@ -37,4 +37,17 @@ Those are :
    - Transition CSS transitions provide a way to control animation speed when changing CSS
      properties.  
 
+   - It let us decide which properties to animate (by listing them
+    explicitly), when the animation will start (by setting a delay), how long the
+    transition will last (by setting a duration), and how the transition will run (by
+    defining a timing function, e.g. linearly or quick at the beginning, slow at the end)
+
+
+   We can define it
+
+   ``` 
+    .box{
+        transition: <property> <duraton> <timing-function> <delay>
+    }
+   ``` 
       
